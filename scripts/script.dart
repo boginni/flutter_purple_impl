@@ -8,7 +8,7 @@ void main() {
     return;
   }
 
-  final externalBarrel = File('lib/presenter/external.dart');
+  final externalBarrel = File('lib/flutter_purple_impl.dart');
 
   final externalFiles = _getDartFiles(Directory('lib/external'));
   _writeExports(externalBarrel, externalFiles, 'external');

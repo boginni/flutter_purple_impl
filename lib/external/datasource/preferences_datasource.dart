@@ -1,5 +1,5 @@
-import '../../domain/datasources/storage_datasource.dart';
-import '../../domain/dto/entities/preferences_entity.dart';
+import 'package:flutter_purple_domains/purple_domains.dart';
+
 import '../dto/model/preferences_model.dart';
 
 class PreferencesDatasource {
