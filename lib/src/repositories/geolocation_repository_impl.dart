@@ -3,11 +3,7 @@ import 'dart:async';
 import 'package:geolocator/geolocator.dart';
 import 'package:vector_math/vector_math.dart';
 
-import '../../domain/enums/geolocation_permission_status_enum.dart';
-import '../../domain/errors/geolocation_failure.dart';
-import '../../domain/extensions/position_extensions.dart';
-import '../../domain/repositories/geolocation_repository.dart';
-
+import 'package:flutter_purple_domains/flutter_purple_domains.dart';
 class GeolocationRepositoryImpl implements GeolocationRepository {
   @override
   Future<Vector2> getCurrentPosition() async {

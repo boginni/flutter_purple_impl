@@ -2,9 +2,7 @@ import 'dart:convert';
 
 import 'package:shared_preferences/shared_preferences.dart';
 
-import '../../domain/dto/entities/cache_entity.dart';
-import '../../domain/providers/cache_provider.dart';
-
+import 'package:flutter_purple_domains/flutter_purple_domains.dart';
 class SharedPreferencesCacheProvider extends CacheProvider {
   SharedPreferencesCacheProvider({required this.sharedPreferences});
 

@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import '../../domain/use_cases/check_internet_use_case.dart';
+import 'package:flutter_purple_domains/flutter_purple_domains.dart';
 
 typedef LookupFunction = Future<List<int>> Function();
 

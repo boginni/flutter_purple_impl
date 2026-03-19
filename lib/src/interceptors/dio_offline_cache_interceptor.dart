@@ -1,10 +1,8 @@
 import 'dart:convert';
 
 import 'package:dio/dio.dart';
+import 'package:flutter_purple_domains/flutter_purple_domains.dart';
 
-import '../../domain/dto/entities/cache_entity.dart';
-import '../../domain/providers/cache_provider.dart';
-import '../../domain/use_cases/check_internet_use_case.dart';
 
 class DioOfflineCacheInterceptor extends InterceptorsWrapper {
   DioOfflineCacheInterceptor({

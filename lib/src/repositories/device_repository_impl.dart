@@ -1,7 +1,8 @@
 import 'package:error_handler_with_result/error_handler_with_result.dart';
 import 'package:flutter/services.dart';
 
-import '../../domain/repositories/device_repository.dart';
+import 'package:flutter_purple_domains/flutter_purple_domains.dart';
+
 import '../datasource/device_datasource.dart';
 
 class DeviceRepositoryImpl implements DeviceRepository {

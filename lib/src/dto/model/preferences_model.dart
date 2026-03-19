@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_purple_domains/flutter_purple_domains.dart';
 
-import '../../../domain/dto/entities/preferences_entity.dart';
 
 class PreferencesModel {
   final bool beaconDriver;

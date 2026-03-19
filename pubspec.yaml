@@ -1,6 +1,6 @@
 name: flutter_purple_impl
 description: "A new Flutter project."
-version: 0.0.1
+version: 0.0.2
 homepage:
 
 environment:
@@ -8,11 +8,24 @@ environment:
   flutter: ">=1.17.0"
 
 dependencies:
-  flutter_purple_domains:
-    git: git@github.com:boginni/flutter_purple_domains.git
-
   flutter:
     sdk: flutter
+
+  flutter_purple_domains:
+    git: git@github.com:boginni/flutter_purple_domains.git
+    version: 0.0.2
+
+  error_handler_with_result: ^1.0.0
+  cross_file: ^0.3.5+2
+  intl: ^0.20.2
+  flutter_polyline_points: ^3.1.0
+  vector_math: ^2.2.0
+  google_maps_flutter: ^2.16.0
+  geolocator: ^14.0.2
+  dio: ^5.9.2
+  url_launcher: ^6.3.2
+  shared_preferences: ^2.5.4
+
 
 dev_dependencies:
   flutter_test:

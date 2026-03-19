@@ -1,7 +1,6 @@
 import 'package:error_handler_with_result/error_handler_with_result.dart';
 
-import '../../domain/dto/entities/preferences_entity.dart';
-import '../../domain/repositories/preferences_repository.dart';
+import 'package:flutter_purple_domains/flutter_purple_domains.dart';
 import '../datasource/preferences_datasource.dart';
 
 class PreferencesRepositoryImpl implements PreferencesRepository {

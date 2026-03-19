@@ -1,7 +1,7 @@
 import 'package:error_handler_with_result/error_handler_with_result.dart';
 import 'package:vector_math/vector_math.dart';
 
-import '../../domain/repositories/launcher_repository.dart';
+import 'package:flutter_purple_domains/flutter_purple_domains.dart';
 import '../datasource/launcher_datasource.dart';
 
 class LauncherRepositoryImpl implements LauncherRepository {

@@ -1,8 +1,7 @@
 import 'dart:convert';
 
+import 'package:flutter_purple_domains/flutter_purple_domains.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-
-import '../../domain/datasources/storage_datasource.dart';
 
 final class StorageDatasourceImpl implements StorageDatasource {
   @override
