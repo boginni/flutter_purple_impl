@@ -1,6 +1,7 @@
 name: flutter_purple_impl
 description: "A new Flutter project."
-version: 0.0.2
+version: 0.0.3
+publish_to: none
 homepage:
 
 environment:
@@ -12,7 +13,7 @@ dependencies:
     sdk: flutter
 
   flutter_purple_domains:
-    git: git@github.com:boginni/flutter_purple_domains.git
+    git: https://github.com/boginni/flutter_purple_domains.git
     version: 0.0.2
 
   error_handler_with_result: ^1.0.0
