@@ -1,6 +1,6 @@
 name: flutter_purple_impl
 description: "A new Flutter project."
-version: 0.0.3
+version: 0.1.0
 publish_to: none
 homepage:
 
@@ -26,6 +26,7 @@ dependencies:
   dio: ^5.9.2
   url_launcher: ^6.3.2
   shared_preferences: ^2.5.4
+  get_it: ^9.2.1
 
 
 dev_dependencies:
